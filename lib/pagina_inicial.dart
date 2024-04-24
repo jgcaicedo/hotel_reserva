@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hoteles_reserva/conexion.dart';
-import 'package:syncfusion_flutter_calendar/calendar.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 
@@ -52,7 +51,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
   }
 
 
-late CalendarController _calendarController;
+// late CalendarController _calendarController;
  
 
   String? selectedValue ;
